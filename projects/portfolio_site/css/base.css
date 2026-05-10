@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-main);
+    color: var(--color-text);
+    background-color: var(--color-light);
+    line-height: 1.6;
+}
+
+/* Nav links typography */
+nav a {
+    font-size: 1rem; /* Theo Design Specs */
+}
+
+/* Responsive Hero Title */
+.hero h1 {
+    font-size: 3.5rem; /* Desktop */
+}
+
+.hero p {
+    font-size: 1.25rem; /* Hero subtitle */
+}
+
+/* Media Queries cho Breakpoints */
+@media (max-width: 767px) {
+    .hero h1 {
+        font-size: 2.5rem; /* Mobile */
+    }
+}
